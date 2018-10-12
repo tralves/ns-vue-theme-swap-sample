@@ -1,6 +1,10 @@
 # NativeScript-Vue Theme Swap Sample
 
-> NatoiveScript-Vue Sample app on how to swap themes using [`nativescript-themes`](https://github.com/NathanaelA/nativescript-themes).
+> NativeScript-Vue Sample app on how to swap themes using [`nativescript-themes`](https://github.com/NathanaelA/nativescript-themes).
+
+## Demo
+
+![App demo](demo.gif?raw=true "App Demo")
 
 ## Usage
 
