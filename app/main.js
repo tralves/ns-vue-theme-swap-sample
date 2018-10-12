@@ -1,0 +1,16 @@
+import Vue from 'nativescript-vue'
+import App from './components/App'
+import VueDevtools from 'nativescript-vue-devtools'
+import Themes from 'nativescript-themes'
+
+if (TNS_ENV !== 'production') {
+  Vue.use(VueDevtools)
+}
+// Prints Vue logs when --env.production is *NOT* set while building
+Vue.config.silent = TNS_ENV === 'production'
+
+Themes.applyTheme('./assets/cssThemes/core.light.css')
+
+new Vue({
+  render: h => h('frame', [h(App)]),
+}).$start()

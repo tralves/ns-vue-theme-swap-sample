@@ -1,0 +1,12 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/dark';
+
+// Override variables here
+
+@import '~nativescript-theme-core/scss/index';
+
+// Custom Skin Overrides
+@import '~nativescript-theme-core/scss/skins/dark/action-bar';
+@import '~nativescript-theme-core/scss/skins/dark/forms';
+@import '~nativescript-theme-core/scss/skins/dark/list-view';
